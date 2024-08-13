@@ -1,0 +1,231 @@
+
+*{
+padding: 0;
+margin: 0;
+}
+.light-heading{
+    color: rgb(55, 55, 240);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(240, 241, 241);
+}
+.logo{
+    width: 70px;
+}
+.nav-bar ul{
+    display: flex;
+    margin: 20px;
+    gap: 5px;
+}
+.nav-bar ul li{
+    list-style: none;
+     
+}
+.nav-bar ul li a{
+    /* list-style: none;  */
+    text-decoration: none;
+    /* background-color: #fff; */
+    
+}
+.btn{
+    margin: 15px;
+    background-color: #7168f4;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 10px;
+}
+/* nav end */
+ /* hero start */
+ .hero{
+    width: 100%;
+    display: flex;
+    
+ }
+ .hero-text{
+    width: 90%;
+    margin-top: 200px;
+    margin-left: 100px;
+    
+ }
+ .hero-text h2{
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 0;
+ }
+ .hero-text p{
+    padding: 10px;
+    padding-left: 0;
+ }
+ .hero-img{
+    display: flex
+ }
+
+ .hero-img1{
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    height: 600px;
+    left: 20px;
+ }
+ .hero-img2{
+    padding: 0;
+    margin: 0;
+    width:300px;
+    height: 650px;
+ }
+/* hero end  */
+/* service start */
+.service-area1{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.service-heading,p{
+    text-align: center;
+}
+.one{
+width:80% ;
+/* gap: 10px; */
+padding: 25px;
+border: 1px solid black;
+}
+.one h4{
+text-align: center;
+}
+.service-icon{
+    position: relative;
+    left: 50%;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+/* service end */
+
+/* app start */
+.app-area{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.app-img{
+    /* width: 400px; */
+}
+.app1{
+    width: 400px;
+}
+.app-text{
+justify-content: center;
+margin-top:  100px; 
+}
+.app-text-img{
+    display: flex;
+    gap: 10px;
+}
+/* app end */
+/* contact start */
+.contact-area{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    gap: 20px;
+    background-color:rgb(229, 227, 223);
+}
+.contact-area h2{
+    text-align: center;
+}
+.contact-form{
+    width: 50%;
+    
+    /* margin: 80px; */
+    /* padding: 50px; */
+}
+.contact-input{
+    width: 90%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.contact-message{
+    width: 90%;  
+    height: 80px; 
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.contact-info{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 8px;
+    margin-top: 15px;
+
+}
+/* contact end */
+/* covid start */
+.covid-area{
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.covid-text{
+    width: 50%;
+}
+
+/* .covid-1{
+    display: flex;
+} */
+ .covid-imgs{
+    display: flex;
+ }
+ .covid-img{
+    max-width: 300px;
+ }
+/* covid end */
+/* footer start */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: rgb(65, 65, 245);
+    color: aliceblue;
+}
+.footer-img{
+    width: 100px;
+    left: 100px;
+    color: aliceblue;
+}
+.footer-text-left{
+    width: 40%;
+    
+}
+.footer-text-left p{
+    margin: 0px;
+}
+.footer-text-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+.footer-extra{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 30px;
+}
+.footer-icon i{
+    gap: 10px;
+    
+    /* background-color: blue; */
+}
+/* footer end */
